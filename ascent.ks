@@ -11,7 +11,7 @@ FROM {local countdown is 5.} UNTIL countdown = 0 STEP {SET countdown to countdow
     PRINT "..." + countdown + "..." AT (0,1).
     WAIT 1. // pauses the script here for 1 second.
 }
-
+//many changes
 
 WHEN MAXTHRUST = 0 THEN {
     PRINT "Staging".
