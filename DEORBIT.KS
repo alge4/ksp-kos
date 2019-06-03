@@ -11,6 +11,9 @@ FUNCTION DEORBIT{
 	SET MYTHROTTLE TO PREVIOUS_THROTTLE.
 	SET MYSTEER TO PREVIOUS_STEER.
 	WAIT 3.
+	print "mission complete throttling down".
+	set wheelThrottle to 0.
+	set wheelsteering to PREVIOUS_STEER.
 }
 
 DEORBIT().
